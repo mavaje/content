@@ -48,13 +48,13 @@ _This interface doesn't inherit any methods. None of the following methods alter
 - {{domxref("DOMMatrixReadOnly.flipY()")}}
   - : Returns a new {{domxref("DOMMatrix")}} created by flipping the source matrix around its Y-axis. This is equivalent to multiplying the matrix by `DOMMatrix(1, 0, 0, -1, 0, 0)`. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.inverse()")}}
-  - : Returns a new {{domxref("DOMMatrix")}} created by inverting the source matrix. The original matrix is not altered.
+  - : Returns a new {{domxref("DOMMatrix")}} created by inverting the source matrix. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.multiply()")}}
-  - : Returns a new {{domxref("DOMMatrix")}} created by computing the dot product of the source matrix and the specified matrix. The original matrix is not
+  - : Returns a new {{domxref("DOMMatrix")}} created by computing the dot product of the source matrix and the specified matrix. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.rotateAxisAngle()")}}
   - : Returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix by the given angle around the specified vector. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.rotate()")}}
-  - : Returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix around each of its axes by the specified number of degrees. The original matrix is not altered.
+  - : Returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix around each of its axes by the specified number of degrees. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.rotateFromVector()")}}
   - : Returns a new {{domxref("DOMMatrix")}} created by rotating the source matrix by the angle between the specified vector and `(1, 0)`. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.scale()")}}
@@ -62,7 +62,7 @@ _This interface doesn't inherit any methods. None of the following methods alter
 - {{domxref("DOMMatrixReadOnly.scale3d()")}}
   - : Returns a new {{domxref("DOMMatrix")}} created by scaling the source 3D matrix by the given factor along all its axes, centered on the specified origin point. The default origin is `(0, 0, 0)`. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.scaleNonUniform()")}} {{deprecated_inline}}
-  - : Returns a new {{domxref("DOMMatrix")}} created by applying the specified scaling on the X, Y, and Z axes, centered at the given origin. By default, the Y and Z axes' scaling factors are both `1`, but the scaling factor for X must be specified. The default origin is `(0, 0, 0)`. The original matrix is not changed.
+  - : Returns a new {{domxref("DOMMatrix")}} created by applying the specified scaling on the X, Y, and Z axes, centered at the given origin. By default, the Y and Z axes' scaling factors are both `1`, but the scaling factor for X must be specified. The default origin is `(0, 0, 0)`. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.skewX()")}}
   - : Returns a new {{domxref("DOMMatrix")}} created by applying the specified skew transformation to the source matrix along its X-axis. The original matrix is not modified.
 - {{domxref("DOMMatrixReadOnly.skewY()")}}
@@ -76,9 +76,9 @@ _This interface doesn't inherit any methods. None of the following methods alter
 - {{domxref("DOMMatrixReadOnly.toString()")}}
   - : Creates and returns a string representation of the matrix in CSS matrix syntax, using the appropriate CSS matrix notation.
 - {{domxref("DOMMatrixReadOnly.transformPoint()")}}
-  - : Transforms the specified point using the matrix, returning a new {{domxref("DOMPoint")}} object containing the transformed point. Neither the matrix nor the original point are altered.
+  - : Transforms the specified point using the matrix, returning a new {{domxref("DOMPoint")}} object containing the transformed point. Neither the matrix nor the original point are modified.
 - {{domxref("DOMMatrixReadOnly.translate()")}}
-  - : Returns a new {{domxref("DOMMatrix")}} containing a matrix calculated by translating the source matrix using the specified vector. By default, the vector is `(0, 0, 0)`. The original matrix is not changed.
+  - : Returns a new {{domxref("DOMMatrix")}} containing a matrix calculated by translating the source matrix using the specified vector. By default, the vector is `(0, 0, 0)`. The original matrix is not modified.
 
 ## Static methods
 
